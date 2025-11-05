@@ -1,0 +1,1041 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:gbConv="http://sbols.org/genBankConversion#" xmlns:sbol="http://sbols.org/v2#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/">
+  <sbol:ComponentDefinition rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid">
+    <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid"/>
+    <sbol:displayId>Intermediate1_Plasmid</sbol:displayId>
+    <dcterms:description>.</dcterms:description>
+    <genbank:locus>Intermediate1_Plasmid</genbank:locus>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <genbank:date>18-SEP-2025</genbank:date>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000988"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation47">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation47"/>
+        <sbol:displayId>annotation47</sbol:displayId>
+        <dcterms:title>BBa_B0012</dcterms:title>
+        <gbConv:label>BBa_B0012</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#d6b295</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#d6b295</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation47/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation47/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>4283</sbol:start>
+            <sbol:end>4323</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation34">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation34"/>
+        <sbol:displayId>annotation34</sbol:displayId>
+        <dcterms:title>TetR 2</dcterms:title>
+        <gbConv:label>TetR 2</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#f58a5e</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#f58a5e</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation34/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation34/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2979</sbol:start>
+            <sbol:end>2997</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation13">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation13"/>
+        <sbol:displayId>annotation13</sbol:displayId>
+        <dcterms:title>BBa_B0034</dcterms:title>
+        <gbConv:label>BBa_B0034</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#ff9ccd</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#ff9ccd</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation13/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation13/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2071</sbol:start>
+            <sbol:end>2082</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation50">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation50"/>
+        <sbol:displayId>annotation50</sbol:displayId>
+        <dcterms:title>stop</dcterms:title>
+        <gbConv:label>stop</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#faac61</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#faac61</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation50/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation50/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>4316</sbol:start>
+            <sbol:end>4316</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation43">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation43"/>
+        <sbol:displayId>annotation43</sbol:displayId>
+        <dcterms:title>BBa_B0010</dcterms:title>
+        <gbConv:label>BBa_B0010</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#ff9ccd</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#ff9ccd</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation43/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation43/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>4195</sbol:start>
+            <sbol:end>4274</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation18">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation18"/>
+        <sbol:displayId>annotation18</sbol:displayId>
+        <dcterms:title>stem_loop</dcterms:title>
+        <gbConv:label>stem_loop</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#c6c9d1</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#c6c9d1</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000313"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation18/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation18/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2828</sbol:start>
+            <sbol:end>2871</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation6">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation6"/>
+        <sbol:displayId>annotation6</sbol:displayId>
+        <dcterms:title>ORI</dcterms:title>
+        <gbConv:label>ORI</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#d59687</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#d59687</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation6/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation6/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>276</sbol:start>
+            <sbol:end>276</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation45">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation45"/>
+        <sbol:displayId>annotation45</sbol:displayId>
+        <dcterms:title>stem_loop</dcterms:title>
+        <gbConv:label>stem_loop</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#d59687</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#d59687</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000313"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation45/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation45/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>4206</sbol:start>
+            <sbol:end>4249</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation10">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation10"/>
+        <sbol:displayId>annotation10</sbol:displayId>
+        <dcterms:title>Stem loop</dcterms:title>
+        <gbConv:label>Stem loop</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#9eafd2</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#9eafd2</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000313"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation10/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation10/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2022</sbol:start>
+            <sbol:end>2041</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation44">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation44"/>
+        <sbol:displayId>annotation44</sbol:displayId>
+        <dcterms:title>BBa_B0010</dcterms:title>
+        <gbConv:label>BBa_B0010</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#85dae9</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#85dae9</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation44/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation44/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>4195</sbol:start>
+            <sbol:end>4274</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation40">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation40"/>
+        <sbol:displayId>annotation40</sbol:displayId>
+        <dcterms:title>LVA</dcterms:title>
+        <gbConv:label>LVA</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#c7b0e3</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#c7b0e3</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation40/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation40/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>4123</sbol:start>
+            <sbol:end>4161</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation16">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation16"/>
+        <sbol:displayId>annotation16</sbol:displayId>
+        <dcterms:title>BBa_B0010</dcterms:title>
+        <gbConv:label>BBa_B0010</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#f58a5e</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#f58a5e</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation16/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation16/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2817</sbol:start>
+            <sbol:end>2896</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation9">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation9"/>
+        <sbol:displayId>annotation9</sbol:displayId>
+        <dcterms:title>end of terminator</dcterms:title>
+        <gbConv:label>end of terminator</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#ff9ccd</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#ff9ccd</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000313"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation9/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation9/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2009</sbol:start>
+            <sbol:end>2012</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation1">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation1"/>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <dcterms:title>pSB1C3</dcterms:title>
+        <gbConv:label>pSB1C3</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#b4abac</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#b4abac</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation1/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation1/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:end>2049</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation25">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation25"/>
+        <sbol:displayId>annotation25</sbol:displayId>
+        <dcterms:title>pSB1C3</dcterms:title>
+        <gbConv:label>pSB1C3</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#c7b0e3</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#c7b0e3</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation25/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation25/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2946</sbol:start>
+            <sbol:end>2947</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation3">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation3"/>
+        <sbol:displayId>annotation3</sbol:displayId>
+        <dcterms:title>Stem loop</dcterms:title>
+        <gbConv:label>Stem loop</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#f58a5e</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#f58a5e</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000313"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation3/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation3/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>30</sbol:start>
+            <sbol:end>64</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation23">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation23"/>
+        <sbol:displayId>annotation23</sbol:displayId>
+        <dcterms:title>stop</dcterms:title>
+        <gbConv:label>stop</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#75c6a9</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#75c6a9</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation23/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation23/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2938</sbol:start>
+            <sbol:end>2938</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation33">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation33"/>
+        <sbol:displayId>annotation33</sbol:displayId>
+        <dcterms:title>-35</dcterms:title>
+        <gbConv:label>-35</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#ff9ccd</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#ff9ccd</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation33/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation33/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2973</sbol:start>
+            <sbol:end>2978</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation49">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation49"/>
+        <sbol:displayId>annotation49</sbol:displayId>
+        <dcterms:title>polya</dcterms:title>
+        <gbConv:label>polya</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#d6b295</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#d6b295</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000553"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation49/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation49/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>4310</sbol:start>
+            <sbol:end>4323</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation26">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation26"/>
+        <sbol:displayId>annotation26</sbol:displayId>
+        <dcterms:title>pSB1C3</dcterms:title>
+        <gbConv:label>pSB1C3</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#b4abac</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#b4abac</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation26/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation26/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2948</sbol:start>
+            <sbol:end>2953</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation37">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation37"/>
+        <sbol:displayId>annotation37</sbol:displayId>
+        <dcterms:title>BBa_S0100</dcterms:title>
+        <gbConv:label>BBa_S0100</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#c7b0e3</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#c7b0e3</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation37/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation37/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>3016</sbol:start>
+            <sbol:end>4186</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation5">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation5"/>
+        <sbol:displayId>annotation5</sbol:displayId>
+        <dcterms:title>rep (pMB1)</dcterms:title>
+        <gbConv:label>rep (pMB1)</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#faac61</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#faac61</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation5/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation5/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>261</sbol:start>
+            <sbol:end>875</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation42">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation42"/>
+        <sbol:displayId>annotation42</sbol:displayId>
+        <dcterms:title>BBa_B0015</dcterms:title>
+        <gbConv:label>BBa_B0015</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#85dae9</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#85dae9</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation42/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation42/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>4195</sbol:start>
+            <sbol:end>4323</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation8">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation8"/>
+        <sbol:displayId>annotation8</sbol:displayId>
+        <dcterms:title>Verification forward (VF2) primer binding site</dcterms:title>
+        <gbConv:label>Verification forward (VF2) primer binding site</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#c7b0e3</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#c7b0e3</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation8/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation8/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1933</sbol:start>
+            <sbol:end>1952</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation41">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation41"/>
+        <sbol:displayId>annotation41</sbol:displayId>
+        <dcterms:title>Help:Barcodes</dcterms:title>
+        <gbConv:label>Help:Barcodes</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#b7e6d7</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#b7e6d7</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation41/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation41/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>4162</sbol:start>
+            <sbol:end>4186</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation14">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation14"/>
+        <sbol:displayId>annotation14</sbol:displayId>
+        <dcterms:title>BBa_I13504</dcterms:title>
+        <gbConv:label>BBa_I13504</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#c7b0e3</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#c7b0e3</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation14/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation14/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2071</sbol:start>
+            <sbol:end>2945</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation15">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation15"/>
+        <sbol:displayId>annotation15</sbol:displayId>
+        <dcterms:title>conserved</dcterms:title>
+        <gbConv:label>conserved</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#c7b0e3</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#c7b0e3</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation15/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation15/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2075</sbol:start>
+            <sbol:end>2078</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation24">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation24"/>
+        <sbol:displayId>annotation24</sbol:displayId>
+        <dcterms:title>BioBrick suffix</dcterms:title>
+        <gbConv:label>BioBrick suffix</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#f58a5e</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#f58a5e</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation24/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation24/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2946</sbol:start>
+            <sbol:end>2947</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation21">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation21"/>
+        <sbol:displayId>annotation21</sbol:displayId>
+        <dcterms:title>T7 TE</dcterms:title>
+        <gbConv:label>T7 TE</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#9eafd2</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#9eafd2</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000313"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation21/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation21/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2912</sbol:start>
+            <sbol:end>2931</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation11">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation11"/>
+        <sbol:displayId>annotation11</sbol:displayId>
+        <dcterms:title>pSB1C3</dcterms:title>
+        <gbConv:label>pSB1C3</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#c7b0e3</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#c7b0e3</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation11/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation11/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2050</sbol:start>
+            <sbol:end>2070</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation20">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation20"/>
+        <sbol:displayId>annotation20</sbol:displayId>
+        <dcterms:title>BBa_B0012</dcterms:title>
+        <gbConv:label>BBa_B0012</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#84b0dc</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#84b0dc</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation20/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation20/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2905</sbol:start>
+            <sbol:end>2945</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation36">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation36"/>
+        <sbol:displayId>annotation36</sbol:displayId>
+        <dcterms:title>BBa_B0034</dcterms:title>
+        <gbConv:label>BBa_B0034</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#ffef86</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#ffef86</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation36/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation36/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>3016</sbol:start>
+            <sbol:end>3027</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation46">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation46"/>
+        <sbol:displayId>annotation46</sbol:displayId>
+        <dcterms:title>BBa_B0012</dcterms:title>
+        <gbConv:label>BBa_B0012</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#ff9ccd</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#ff9ccd</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation46/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation46/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>4283</sbol:start>
+            <sbol:end>4323</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation39">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation39"/>
+        <sbol:displayId>annotation39</sbol:displayId>
+        <dcterms:title>BBa_C0012</dcterms:title>
+        <gbConv:label>BBa_C0012</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#b1ff67</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#b1ff67</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation39/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation39/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>3034</sbol:start>
+            <sbol:end>4161</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation4">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation4"/>
+        <sbol:displayId>annotation4</sbol:displayId>
+        <dcterms:title>Verification reverse (VR) primer binding site</dcterms:title>
+        <gbConv:label>Verification reverse (VR) primer binding site</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#85dae9</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#85dae9</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation4/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation4/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>157</sbol:start>
+            <sbol:end>176</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation7">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation7"/>
+        <sbol:displayId>annotation7</sbol:displayId>
+        <dcterms:title>T0 terminator</dcterms:title>
+        <gbConv:label>T0 terminator</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#b1ff67</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#b1ff67</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000313"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation7/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation7/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1042</sbol:start>
+            <sbol:end>1147</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation22">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation22"/>
+        <sbol:displayId>annotation22</sbol:displayId>
+        <dcterms:title>polya</dcterms:title>
+        <gbConv:label>polya</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#75c6a9</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#75c6a9</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000553"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation22/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation22/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2932</sbol:start>
+            <sbol:end>2945</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation27">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation27"/>
+        <sbol:displayId>annotation27</sbol:displayId>
+        <dcterms:title>BioBrick prefix</dcterms:title>
+        <gbConv:label>BioBrick prefix</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#b4abac</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#b4abac</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation27/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation27/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2948</sbol:start>
+            <sbol:end>2955</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation17">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation17"/>
+        <sbol:displayId>annotation17</sbol:displayId>
+        <dcterms:title>BBa_B0010</dcterms:title>
+        <gbConv:label>BBa_B0010</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#84b0dc</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#84b0dc</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation17/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation17/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2817</sbol:start>
+            <sbol:end>2896</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation48">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation48"/>
+        <sbol:displayId>annotation48</sbol:displayId>
+        <dcterms:title>T7 TE</dcterms:title>
+        <gbConv:label>T7 TE</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#b4abac</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#b4abac</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000313"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation48/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation48/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>4290</sbol:start>
+            <sbol:end>4309</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation19">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation19"/>
+        <sbol:displayId>annotation19</sbol:displayId>
+        <dcterms:title>BBa_B0012</dcterms:title>
+        <gbConv:label>BBa_B0012</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#9eafd2</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#9eafd2</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation19/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation19/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2905</sbol:start>
+            <sbol:end>2945</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation35">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation35"/>
+        <sbol:displayId>annotation35</sbol:displayId>
+        <dcterms:title>-10</dcterms:title>
+        <gbConv:label>-10</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#75c6a9</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#75c6a9</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation35/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation35/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2996</sbol:start>
+            <sbol:end>3001</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation12">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation12"/>
+        <sbol:displayId>annotation12</sbol:displayId>
+        <dcterms:title>BioBrick prefix</dcterms:title>
+        <gbConv:label>BioBrick prefix</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#faac61</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#faac61</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation12/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation12/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2051</sbol:start>
+            <sbol:end>2072</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation32">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation32"/>
+        <sbol:displayId>annotation32</sbol:displayId>
+        <dcterms:title>BBa_I763025</dcterms:title>
+        <gbConv:label>BBa_I763025</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#b4abac</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#b4abac</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation32/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation32/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2954</sbol:start>
+            <sbol:end>4186</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation2">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation2"/>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <dcterms:title>E. coli his operon terminator</dcterms:title>
+        <gbConv:label>E. coli his operon terminator</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#ffef86</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#ffef86</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000313"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation2/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation2/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>22</sbol:start>
+            <sbol:end>93</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation28">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation28"/>
+        <sbol:displayId>annotation28</sbol:displayId>
+        <dcterms:title>BBa_I763026</dcterms:title>
+        <gbConv:label>BBa_I763026</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#d59687</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#d59687</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation28/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation28/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2954</sbol:start>
+            <sbol:end>4323</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation38">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation38"/>
+        <sbol:displayId>annotation38</sbol:displayId>
+        <dcterms:title>conserved</dcterms:title>
+        <gbConv:label>conserved</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#b7e6d7</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#b7e6d7</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation38/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation38/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>3020</sbol:start>
+            <sbol:end>3023</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation29">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation29"/>
+        <sbol:displayId>annotation29</sbol:displayId>
+        <dcterms:title>TetR 1</dcterms:title>
+        <gbConv:label>TetR 1</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#d6b295</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#d6b295</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation29/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation29/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2954</sbol:start>
+            <sbol:end>2972</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation31">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation31"/>
+        <sbol:displayId>annotation31</sbol:displayId>
+        <dcterms:title>BBa_R0040</dcterms:title>
+        <gbConv:label>BBa_R0040</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#d59687</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#d59687</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation31/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation31/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2954</sbol:start>
+            <sbol:end>3007</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation30">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation30"/>
+        <sbol:displayId>annotation30</sbol:displayId>
+        <dcterms:title>BBa_R0040</dcterms:title>
+        <gbConv:label>BBa_R0040</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#d6b295</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#d6b295</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation30/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation30/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>2954</sbol:start>
+            <sbol:end>3007</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation0">
+        <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation0"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <dcterms:title>BioBrick suffix</dcterms:title>
+        <gbConv:label>BioBrick suffix</gbConv:label>
+        <gbConv:ApEinfo_revcolor>#faac61</gbConv:ApEinfo_revcolor>
+        <gbConv:ApEinfo_fwdcolor>#faac61</gbConv:ApEinfo_fwdcolor>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid/annotation0/range">
+            <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid/annotation0/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:start>1</sbol:start>
+            <sbol:end>21</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid_seq"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://example.org/pysbol2/Intermediate1_Plasmid_seq">
+    <sbol:persistentIdentity rdf:resource="https://example.org/pysbol2/Intermediate1_Plasmid_seq"/>
+    <sbol:displayId>Intermediate1_Plasmid_seq</sbol:displayId>
+    <sbol:elements>tactagtagcggccgctgcagtccggcaaaaaagggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccacaggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagctcgaggcttggattctcaccaataaaaaacgcccggcggcaaccgagcgttctgaacaaatccagatggagttctgaggtcattactggatctatcaacaggagtccaagcgagctcgatatcaaattacgccccgccctgccactcatcgcagtactgttgtaattcattaagcattctgccgacatggaagccatcacaaacggcatgatgaacctgaatcgccagcggcatcagcaccttgtcgccttgcgtataatatttgcccatggtgaaaacgggggcgaagaagttgtccatattggccacgtttaaatcaaaactggtgaaactcacccagggattggctgagacgaaaaacatattctcaataaaccctttagggaaataggccaggttttcaccgtaacacgccacatcttgcgaatatatgtgtagaaactgccggaaatcgtcgtggtattcactccagagcgatgaaaacgtttcagtttgctcatggaaaacggtgtaacaagggtgaacactatcccatatcaccagctcaccgtctttcattgccatacgaaattccggatgagcattcatcaggcgggcaagaatgtgaataaaggccggataaaacttgtgcttatttttctttacggtctttaaaaaggccgtaatatccagctgaacggtctggttataggtacattgagcaactgactgaaatgcctcaaaatgttctttacgatgccattgggatatatcaacggtggtatatccagtgatttttttctccattttagcttccttagctcctgaaaatctcgataactcaaaaaatacgcccggtagtgatcttatttcattatggtgaaagttggaacctcttacgtgcccgatcaactcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattcgcggccgcttctagagaaagaggagaaatactagatgcgtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcacaaattttctgtcagtggagagggtgaaggtgatgcaacatacggaaaacttacccttaaatttatttgcactactggaaaactacctgttccatggccaacacttgtcactactttcggttatggtgttcaatgctttgcgagatacccagatcatatgaaacagcatgactttttcaagagtgccatgcccgaaggttatgtacaggaaagaactatatttttcaaagatgacgggaactacaagacacgtgctgaagtcaagtttgaaggtgatacccttgttaatagaatcgagttaaaaggtattgattttaaagaagatggaaacattcttggacacaaattggaatacaactataactcacacaatgtatacatcatggcagacaaacaaaagaatggaatcaaagttaacttcaaaattagacacaacattgaagatggaagcgttcaactagcagaccattatcaacaaaatactccaattggcgatggccctgtccttttaccagacaaccattacctgtccacacaatctgccctttcgaaagatcccaacgaaaagagagaccacatggtccttcttgagtttgtaacagctgctgggattacacatggcatggatgaactatacaaataataatactagagccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttatatactagagtccctatcagtgatagagattgacatccctatcagtgatagagatactgagcactactagagaaagaggagaaatactagatggtgaatgtgaaaccagtaacgttatacgatgtcgcagagtatgccggtgtctcttatcagaccgtttcccgcgtggtgaaccaggccagccacgtttctgcgaaaacgcgggaaaaagtggaagcggcgatggcggagctgaattacattcccaaccgcgtggcacaacaactggcgggcaaacagtcgttgctgattggcgttgccacctccagtctggccctgcacgcgccgtcgcaaattgtcgcggcgattaaatctcgcgccgatcaactgggtgccagcgtggtggtgtcgatggtagaacgaagcggcgtcgaagcctgtaaagcggcggtgcacaatcttctcgcgcaacgcgtcagtgggctgatcattaactatccgctggatgaccaggatgccattgctgtggaagctgcctgcactaatgttccggcgttatttcttgatgtctctgaccagacacccatcaacagtattattttctcccatgaagacggtacgcgactgggcgtggagcatctggtcgcattgggtcaccagcaaatcgcgctgttagcgggcccattaagttctgtctcggcgcgtctgcgtctggctggctggcataaatatctcactcgcaatcaaattcagccgatagcggaacgggaaggcgactggagtgccatgtccggttttcaacaaaccatgcaaatgctgaatgagggcatcgttcccactgcgatgctggttgccaacgatcagatggcgctgggcgcaatgcgcgccattaccgagtccgggctgcgcgttggtgcggatatctcggtagtgggatacgacgataccgaagacagctcatgttatatcccgccgttaaccaccatcaaacaggattttcgcctgctggggcaaaccagcgtggaccgcttgctgcaactctctcagggccaggcggtgaagggcaatcagctgttgcccgtctcactggtgaaaagaaaaaccaccctggcgcccaatacgcaaaccgcctctccccgcgcgttggccgattcattaatgcagctggcacgacaggtttcccgactggaaagcgggcaggctgcaaacgacgaaaactacgctttagtagcttaataactctgatagtgctagtgtagatctctactagagccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

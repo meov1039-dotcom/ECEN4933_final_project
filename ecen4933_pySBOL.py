@@ -37,10 +37,18 @@ print("Test 3:") # example is for a plasmid assembly, that was converted from gb
 
 print("Objects:")
 for obj in doc3:
-    print(obj)
+    print(obj) # only shows Intermediate1_plasmid
 
 print("Component Definitions:")
 for comp in doc3.componentDefinitions:
-    print(comp) # these are all parts used in the example file (LacI_inverter)
+    print(comp) # only shows Intermediate1_plasmid
 
+# GenBank file exported from Benchling
+# Converted to SBOL with validator
+# Uploaded to SynBioHub
+doc4 = sbol2.Document()
+doc4.read('test3.xml')
 
+print("Objects:")
+for obj in doc4:
+    print(obj)

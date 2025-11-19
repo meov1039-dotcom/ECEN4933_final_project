@@ -1,0 +1,1873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:sbol="http://sbols.org/v2#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#dateTime/" xmlns:om="http://www.ontology-of-units-of-measure.org/resource/om-2/" xmlns:synbiohub="http://synbiohub.org#" xmlns:sbh="http://wiki.synbiohub.org/wiki/Terms/synbiohub#" xmlns:sybio="http://www.sybio.ncl.ac.uk#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:ncbi="http://www.ncbi.nlm.nih.gov#" xmlns:igem="http://wiki.synbiohub.org/wiki/Terms/igem#" xmlns:genbank="http://www.ncbi.nlm.nih.gov/genbank#" xmlns:gbconv="http://sbols.org/genBankConversion#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:obo="http://purl.obolibrary.org/obo/">
+  <sbol:ComponentDefinition rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid"/>
+    <sbol:displayId>Genetictoggle_plasmid</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <dcterms:description>.</dcterms:description>
+    <genbank:molecule>ds-DNA</genbank:molecule>
+    <genbank:locus>Genetictoggle_plasmid</genbank:locus>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+    <genbank:date>18-SEP-2025</genbank:date>
+    <sbol:type rdf:resource="http://www.biopax.org/release/biopax-level3.owl#DnaRegion"/>
+    <sbol:type rdf:resource="http://identifiers.org/so/SO:0000988"/>
+    <sbol:role rdf:resource="http://identifiers.org/so/SO:0000804"/>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation0/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation0"/>
+        <sbol:displayId>annotation0</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BioBrick suffix</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#faac61</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#faac61</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BioBrick suffix</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation0/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation0/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>21</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation1/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation1"/>
+        <sbol:displayId>annotation1</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>pSB1C3</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#b4abac</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#b4abac</gbconv:ApEinfo_revcolor>
+        <gbconv:label>pSB1C3</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation1/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation1/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>1</sbol:start>
+            <sbol:end>2049</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation2/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation2"/>
+        <sbol:displayId>annotation2</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>E. coli his operon terminator</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#ffef86</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#ffef86</gbconv:ApEinfo_revcolor>
+        <gbconv:label>E. coli his operon terminator</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation2/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation2/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>22</sbol:start>
+            <sbol:end>93</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000313"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation3/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation3"/>
+        <sbol:displayId>annotation3</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>Stem loop</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#f58a5e</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#f58a5e</gbconv:ApEinfo_revcolor>
+        <gbconv:label>Stem loop</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation3/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation3/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>30</sbol:start>
+            <sbol:end>64</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000313"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation4/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation4"/>
+        <sbol:displayId>annotation4</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>Verification reverse (VR) primer binding site</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#85dae9</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#85dae9</gbconv:ApEinfo_revcolor>
+        <gbconv:label>Verification reverse (VR) primer binding site</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation4/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation4/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>157</sbol:start>
+            <sbol:end>176</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation5/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation5"/>
+        <sbol:displayId>annotation5</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>rep (pMB1)</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#faac61</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#faac61</gbconv:ApEinfo_revcolor>
+        <gbconv:label>rep (pMB1)</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation5/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation5/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>261</sbol:start>
+            <sbol:end>875</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation6/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation6"/>
+        <sbol:displayId>annotation6</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>ORI</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#d59687</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#d59687</gbconv:ApEinfo_revcolor>
+        <gbconv:label>ORI</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation6/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation6/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>276</sbol:start>
+            <sbol:end>276</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation7/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation7"/>
+        <sbol:displayId>annotation7</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>T0 terminator</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#b1ff67</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#b1ff67</gbconv:ApEinfo_revcolor>
+        <gbconv:label>T0 terminator</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation7/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation7/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>1042</sbol:start>
+            <sbol:end>1147</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000313"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation8/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation8"/>
+        <sbol:displayId>annotation8</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>Verification forward (VF2) primer binding site</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#c7b0e3</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#c7b0e3</gbconv:ApEinfo_revcolor>
+        <gbconv:label>Verification forward (VF2) primer binding site</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation8/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation8/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>1933</sbol:start>
+            <sbol:end>1952</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0005850"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation9/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation9"/>
+        <sbol:displayId>annotation9</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>end of terminator</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#ff9ccd</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#ff9ccd</gbconv:ApEinfo_revcolor>
+        <gbconv:label>end of terminator</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation9/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation9/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>2009</sbol:start>
+            <sbol:end>2012</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000313"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation10/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation10"/>
+        <sbol:displayId>annotation10</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>Stem loop</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#9eafd2</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#9eafd2</gbconv:ApEinfo_revcolor>
+        <gbconv:label>Stem loop</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation10/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation10/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>2022</sbol:start>
+            <sbol:end>2041</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000313"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation11/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation11"/>
+        <sbol:displayId>annotation11</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>pSB1C3</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#ffef86</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#ffef86</gbconv:ApEinfo_revcolor>
+        <gbconv:label>pSB1C3</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation11/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation11/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>2050</sbol:start>
+            <sbol:end>2070</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation12/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation12"/>
+        <sbol:displayId>annotation12</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BioBrick prefix</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#75c6a9</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#75c6a9</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BioBrick prefix</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation12/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation12/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>2051</sbol:start>
+            <sbol:end>2072</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation14/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation14"/>
+        <sbol:displayId>annotation14</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>LacI</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#9eafd2</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#9eafd2</gbconv:ApEinfo_revcolor>
+        <gbconv:label>LacI</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation14/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation14/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>2071</sbol:start>
+            <sbol:end>2270</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation13/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation13"/>
+        <sbol:displayId>annotation13</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_R0010</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#f58a5e</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#f58a5e</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BBa_R0010</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation13/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation13/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>2071</sbol:start>
+            <sbol:end>2270</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation15/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation15"/>
+        <sbol:displayId>annotation15</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>CAP binding site</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#c7b0e3</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#c7b0e3</gbconv:ApEinfo_revcolor>
+        <gbconv:label>CAP binding site</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation15/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation15/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>2159</sbol:start>
+            <sbol:end>2196</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation16/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation16"/>
+        <sbol:displayId>annotation16</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>-35</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#d6b295</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#d6b295</gbconv:ApEinfo_revcolor>
+        <gbconv:label>-35</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation16/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation16/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>2207</sbol:start>
+            <sbol:end>2212</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation17/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation17"/>
+        <sbol:displayId>annotation17</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>-10</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#c7b0e3</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#c7b0e3</gbconv:ApEinfo_revcolor>
+        <gbconv:label>-10</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation17/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation17/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>2231</sbol:start>
+            <sbol:end>2236</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation18/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation18"/>
+        <sbol:displayId>annotation18</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>LacI binding site</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#9eafd2</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#9eafd2</gbconv:ApEinfo_revcolor>
+        <gbconv:label>LacI binding site</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation18/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation18/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>2236</sbol:start>
+            <sbol:end>2270</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation19/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation19"/>
+        <sbol:displayId>annotation19</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>start</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#ffef86</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#ffef86</gbconv:ApEinfo_revcolor>
+        <gbconv:label>start</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation19/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation19/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>2243</sbol:start>
+            <sbol:end>2243</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation21/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation21"/>
+        <sbol:displayId>annotation21</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BioBrick suffix</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#faac61</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#faac61</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BioBrick suffix</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation21/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation21/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>2271</sbol:start>
+            <sbol:end>2272</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation20/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation20"/>
+        <sbol:displayId>annotation20</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>pSB1C3</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#ffef86</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#ffef86</gbconv:ApEinfo_revcolor>
+        <gbconv:label>pSB1C3</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation20/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation20/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>2271</sbol:start>
+            <sbol:end>2272</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation23/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation23"/>
+        <sbol:displayId>annotation23</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BioBrick prefix</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#d6b295</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#d6b295</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BioBrick prefix</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation23/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation23/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>2273</sbol:start>
+            <sbol:end>2280</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation22/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation22"/>
+        <sbol:displayId>annotation22</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>pSB1C3</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#d59687</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#d59687</gbconv:ApEinfo_revcolor>
+        <gbconv:label>pSB1C3</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation22/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation22/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>2273</sbol:start>
+            <sbol:end>2278</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation25/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation25"/>
+        <sbol:displayId>annotation25</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_S03518</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#b7e6d7</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#b7e6d7</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BBa_S03518</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation25/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation25/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>2279</sbol:start>
+            <sbol:end>2981</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation24/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation24"/>
+        <sbol:displayId>annotation24</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_B0034</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#c7b0e3</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#c7b0e3</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BBa_B0034</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation24/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation24/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>2279</sbol:start>
+            <sbol:end>2290</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation26/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation26"/>
+        <sbol:displayId>annotation26</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>conserved</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#f8d3a9</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#f8d3a9</gbconv:ApEinfo_revcolor>
+        <gbconv:label>conserved</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation26/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation26/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>2283</sbol:start>
+            <sbol:end>2286</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation27/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation27"/>
+        <sbol:displayId>annotation27</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>SsrA</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#faac61</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#faac61</gbconv:ApEinfo_revcolor>
+        <gbconv:label>SsrA</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation27/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation27/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>2917</sbol:start>
+            <sbol:end>2950</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation28/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation28"/>
+        <sbol:displayId>annotation28</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>Help:Barcodes</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#b7e6d7</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#b7e6d7</gbconv:ApEinfo_revcolor>
+        <gbconv:label>Help:Barcodes</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation28/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation28/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>2957</sbol:start>
+            <sbol:end>2981</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation30/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation30"/>
+        <sbol:displayId>annotation30</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>pSB1C3</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#d59687</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#d59687</gbconv:ApEinfo_revcolor>
+        <gbconv:label>pSB1C3</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation30/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation30/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>2982</sbol:start>
+            <sbol:end>2983</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation29/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation29"/>
+        <sbol:displayId>annotation29</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BioBrick suffix</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#75c6a9</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#75c6a9</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BioBrick suffix</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation29/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation29/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>2982</sbol:start>
+            <sbol:end>2983</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation32/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation32"/>
+        <sbol:displayId>annotation32</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BioBrick prefix</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#faac61</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#faac61</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BioBrick prefix</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation32/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation32/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>2984</sbol:start>
+            <sbol:end>2991</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation31/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation31"/>
+        <sbol:displayId>annotation31</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>pSB1C3</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#c7b0e3</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#c7b0e3</gbconv:ApEinfo_revcolor>
+        <gbconv:label>pSB1C3</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation31/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation31/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>2984</sbol:start>
+            <sbol:end>2989</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation34/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation34"/>
+        <sbol:displayId>annotation34</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_I13504</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#c7b0e3</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#c7b0e3</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BBa_I13504</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation34/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation34/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>2990</sbol:start>
+            <sbol:end>3864</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation33/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation33"/>
+        <sbol:displayId>annotation33</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_B0034</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#ff9ccd</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#ff9ccd</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BBa_B0034</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation33/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation33/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>2990</sbol:start>
+            <sbol:end>3001</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation35/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation35"/>
+        <sbol:displayId>annotation35</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>conserved</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#c7b0e3</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#c7b0e3</gbconv:ApEinfo_revcolor>
+        <gbconv:label>conserved</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation35/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation35/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>2994</sbol:start>
+            <sbol:end>2997</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation36/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation36"/>
+        <sbol:displayId>annotation36</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_B0010</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#84b0dc</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#84b0dc</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BBa_B0010</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation36/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation36/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>3736</sbol:start>
+            <sbol:end>3815</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation37/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation37"/>
+        <sbol:displayId>annotation37</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_B0010</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#f58a5e</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#f58a5e</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BBa_B0010</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation37/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation37/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>3736</sbol:start>
+            <sbol:end>3815</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation38/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation38"/>
+        <sbol:displayId>annotation38</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>stem_loop</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#c6c9d1</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#c6c9d1</gbconv:ApEinfo_revcolor>
+        <gbconv:label>stem_loop</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation38/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation38/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>3747</sbol:start>
+            <sbol:end>3790</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000313"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation39/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation39"/>
+        <sbol:displayId>annotation39</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_B0012</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#84b0dc</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#84b0dc</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BBa_B0012</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation39/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation39/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>3824</sbol:start>
+            <sbol:end>3864</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation40/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation40"/>
+        <sbol:displayId>annotation40</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_B0012</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#9eafd2</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#9eafd2</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BBa_B0012</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation40/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation40/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>3824</sbol:start>
+            <sbol:end>3864</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation41/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation41"/>
+        <sbol:displayId>annotation41</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>T7 TE</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#9eafd2</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#9eafd2</gbconv:ApEinfo_revcolor>
+        <gbconv:label>T7 TE</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation41/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation41/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>3831</sbol:start>
+            <sbol:end>3850</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000313"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation42/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation42"/>
+        <sbol:displayId>annotation42</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>polya</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#75c6a9</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#75c6a9</gbconv:ApEinfo_revcolor>
+        <gbconv:label>polya</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation42/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation42/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>3851</sbol:start>
+            <sbol:end>3864</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000553"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation43/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation43"/>
+        <sbol:displayId>annotation43</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>stop</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#75c6a9</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#75c6a9</gbconv:ApEinfo_revcolor>
+        <gbconv:label>stop</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation43/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation43/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>3857</sbol:start>
+            <sbol:end>3857</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation45/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation45"/>
+        <sbol:displayId>annotation45</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BioBrick suffix</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#f58a5e</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#f58a5e</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BioBrick suffix</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation45/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation45/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>3865</sbol:start>
+            <sbol:end>3866</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation44/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation44"/>
+        <sbol:displayId>annotation44</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>pSB1C3</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#c7b0e3</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#c7b0e3</gbconv:ApEinfo_revcolor>
+        <gbconv:label>pSB1C3</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation44/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation44/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>3865</sbol:start>
+            <sbol:end>3866</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation47/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation47"/>
+        <sbol:displayId>annotation47</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BioBrick prefix</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#b4abac</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#b4abac</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BioBrick prefix</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation47/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation47/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>3867</sbol:start>
+            <sbol:end>3874</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation46/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation46"/>
+        <sbol:displayId>annotation46</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>pSB1C3</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#b4abac</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#b4abac</gbconv:ApEinfo_revcolor>
+        <gbconv:label>pSB1C3</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation46/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation46/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>3867</sbol:start>
+            <sbol:end>3872</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation49/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation49"/>
+        <sbol:displayId>annotation49</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>TetR 1</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#d6b295</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#d6b295</gbconv:ApEinfo_revcolor>
+        <gbconv:label>TetR 1</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation49/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation49/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>3873</sbol:start>
+            <sbol:end>3891</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation48/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation48"/>
+        <sbol:displayId>annotation48</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_I763026</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#d59687</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#d59687</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BBa_I763026</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation48/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation48/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>3873</sbol:start>
+            <sbol:end>5242</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation52/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation52"/>
+        <sbol:displayId>annotation52</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_I763025</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#b4abac</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#b4abac</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BBa_I763025</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation52/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation52/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>3873</sbol:start>
+            <sbol:end>5105</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation51/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation51"/>
+        <sbol:displayId>annotation51</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_R0040</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#d6b295</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#d6b295</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BBa_R0040</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation51/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation51/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>3873</sbol:start>
+            <sbol:end>3926</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation50/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation50"/>
+        <sbol:displayId>annotation50</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_R0040</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#d59687</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#d59687</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BBa_R0040</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation50/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation50/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>3873</sbol:start>
+            <sbol:end>3926</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation53/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation53"/>
+        <sbol:displayId>annotation53</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>-35</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#ff9ccd</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#ff9ccd</gbconv:ApEinfo_revcolor>
+        <gbconv:label>-35</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation53/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation53/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>3892</sbol:start>
+            <sbol:end>3897</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation54/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation54"/>
+        <sbol:displayId>annotation54</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>TetR 2</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#f58a5e</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#f58a5e</gbconv:ApEinfo_revcolor>
+        <gbconv:label>TetR 2</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation54/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation54/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>3898</sbol:start>
+            <sbol:end>3916</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation55/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation55"/>
+        <sbol:displayId>annotation55</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>-10</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#75c6a9</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#75c6a9</gbconv:ApEinfo_revcolor>
+        <gbconv:label>-10</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation55/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation55/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>3915</sbol:start>
+            <sbol:end>3920</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000167"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation56/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation56"/>
+        <sbol:displayId>annotation56</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_B0034</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#ffef86</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#ffef86</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BBa_B0034</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation56/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation56/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>3935</sbol:start>
+            <sbol:end>3946</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000139"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation57/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation57"/>
+        <sbol:displayId>annotation57</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_S0100</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#c7b0e3</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#c7b0e3</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BBa_S0100</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation57/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation57/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>3935</sbol:start>
+            <sbol:end>5105</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation58/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation58"/>
+        <sbol:displayId>annotation58</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>conserved</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#b7e6d7</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#b7e6d7</gbconv:ApEinfo_revcolor>
+        <gbconv:label>conserved</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation58/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation58/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>3939</sbol:start>
+            <sbol:end>3942</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation59/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation59"/>
+        <sbol:displayId>annotation59</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_C0012</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#b1ff67</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#b1ff67</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BBa_C0012</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation59/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation59/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>3953</sbol:start>
+            <sbol:end>5080</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation60/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation60"/>
+        <sbol:displayId>annotation60</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>LVA</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#c7b0e3</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#c7b0e3</gbconv:ApEinfo_revcolor>
+        <gbconv:label>LVA</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation60/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation60/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>5042</sbol:start>
+            <sbol:end>5080</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation61/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation61"/>
+        <sbol:displayId>annotation61</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>Help:Barcodes</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#b7e6d7</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#b7e6d7</gbconv:ApEinfo_revcolor>
+        <gbconv:label>Help:Barcodes</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation61/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation61/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>5081</sbol:start>
+            <sbol:end>5105</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation63/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation63"/>
+        <sbol:displayId>annotation63</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_B0010</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#ff9ccd</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#ff9ccd</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BBa_B0010</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation63/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation63/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>5114</sbol:start>
+            <sbol:end>5193</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation62/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation62"/>
+        <sbol:displayId>annotation62</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_B0015</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#85dae9</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#85dae9</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BBa_B0015</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation62/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation62/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>5114</sbol:start>
+            <sbol:end>5242</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation64/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation64"/>
+        <sbol:displayId>annotation64</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_B0010</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#85dae9</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#85dae9</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BBa_B0010</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation64/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation64/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>5114</sbol:start>
+            <sbol:end>5193</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation65/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation65"/>
+        <sbol:displayId>annotation65</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>stem_loop</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#d59687</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#d59687</gbconv:ApEinfo_revcolor>
+        <gbconv:label>stem_loop</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation65/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation65/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>5125</sbol:start>
+            <sbol:end>5168</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000313"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation67/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation67"/>
+        <sbol:displayId>annotation67</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_B0012</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#ff9ccd</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#ff9ccd</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BBa_B0012</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation67/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation67/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>5202</sbol:start>
+            <sbol:end>5242</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000141"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation66/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation66"/>
+        <sbol:displayId>annotation66</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>BBa_B0012</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#d6b295</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#d6b295</gbconv:ApEinfo_revcolor>
+        <gbconv:label>BBa_B0012</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation66/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation66/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>5202</sbol:start>
+            <sbol:end>5242</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation68/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation68"/>
+        <sbol:displayId>annotation68</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>T7 TE</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#b4abac</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#b4abac</gbconv:ApEinfo_revcolor>
+        <gbconv:label>T7 TE</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation68/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation68/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>5209</sbol:start>
+            <sbol:end>5228</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000313"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation69/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation69"/>
+        <sbol:displayId>annotation69</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>polya</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#d6b295</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#d6b295</gbconv:ApEinfo_revcolor>
+        <gbconv:label>polya</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation69/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation69/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>5229</sbol:start>
+            <sbol:end>5242</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0000553"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequenceAnnotation>
+      <sbol:SequenceAnnotation rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation70/1">
+        <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation70"/>
+        <sbol:displayId>annotation70</sbol:displayId>
+        <sbol:version>1</sbol:version>
+        <dcterms:title>stop</dcterms:title>
+        <gbconv:ApEinfo_fwdcolor>#faac61</gbconv:ApEinfo_fwdcolor>
+        <gbconv:ApEinfo_revcolor>#faac61</gbconv:ApEinfo_revcolor>
+        <gbconv:label>stop</gbconv:label>
+        <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+        <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+        <sbol:location>
+          <sbol:Range rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation70/range/1">
+            <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/annotation70/range"/>
+            <sbol:displayId>range</sbol:displayId>
+            <sbol:version>1</sbol:version>
+            <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid/1"/>
+            <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+            <sbol:start>5235</sbol:start>
+            <sbol:end>5235</sbol:end>
+            <sbol:orientation rdf:resource="http://sbols.org/v2#inline"/>
+          </sbol:Range>
+        </sbol:location>
+        <sbol:role rdf:resource="http://identifiers.org/so/SO:0001411"/>
+      </sbol:SequenceAnnotation>
+    </sbol:sequenceAnnotation>
+    <sbol:sequence rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid_seq/1"/>
+  </sbol:ComponentDefinition>
+  <sbol:Sequence rdf:about="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid_seq/1">
+    <sbol:persistentIdentity rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid_seq"/>
+    <sbol:displayId>Genetictoggle_plasmid_seq</sbol:displayId>
+    <sbol:version>1</sbol:version>
+    <sbh:topLevel rdf:resource="https://synbiohub.org/user/meov1039/ECEN4933_Assignment3_Plasmids/Genetictoggle_plasmid_seq/1"/>
+    <sbh:ownedBy rdf:resource="https://synbiohub.org/user/meov1039"/>
+    <sbol:elements>tactagtagcggccgctgcagtccggcaaaaaagggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggcttcctcgctcactgactcgctgcgctcggtcgttcggctgcggcgagcggtatcagctcactcaaaggcggtaatacggttatccacagaatcaggggataacgcaggaaagaacatgtgagcaaaaggccagcaaaaggccaggaaccgtaaaaaggccgcgttgctggcgtttttccacaggctccgcccccctgacgagcatcacaaaaatcgacgctcaagtcagaggtggcgaaacccgacaggactataaagataccaggcgtttccccctggaagctccctcgtgcgctctcctgttccgaccctgccgcttaccggatacctgtccgcctttctcccttcgggaagcgtggcgctttctcatagctcacgctgtaggtatctcagttcggtgtaggtcgttcgctccaagctgggctgtgtgcacgaaccccccgttcagcccgaccgctgcgccttatccggtaactatcgtcttgagtccaacccggtaagacacgacttatcgccactggcagcagccactggtaacaggattagcagagcgaggtatgtaggcggtgctacagagttcttgaagtggtggcctaactacggctacactagaagaacagtatttggtatctgcgctctgctgaagccagttaccttcggaaaaagagttggtagctcttgatccggcaaacaaaccaccgctggtagcggtggtttttttgtttgcaagcagcagattacgcgcagaaaaaaaggatctcaagaagatcctttgatcttttctacggggtctgacgctcagtggaacgaaaactcacgttaagggattttggtcatgagattatcaaaaaggatcttcacctagatccttttaaattaaaaatgaagttttaaatcaatctaaagtatatatgagtaaacttggtctgacagctcgaggcttggattctcaccaataaaaaacgcccggcggcaaccgagcgttctgaacaaatccagatggagttctgaggtcattactggatctatcaacaggagtccaagcgagctcgatatcaaattacgccccgccctgccactcatcgcagtactgttgtaattcattaagcattctgccgacatggaagccatcacaaacggcatgatgaacctgaatcgccagcggcatcagcaccttgtcgccttgcgtataatatttgcccatggtgaaaacgggggcgaagaagttgtccatattggccacgtttaaatcaaaactggtgaaactcacccagggattggctgagacgaaaaacatattctcaataaaccctttagggaaataggccaggttttcaccgtaacacgccacatcttgcgaatatatgtgtagaaactgccggaaatcgtcgtggtattcactccagagcgatgaaaacgtttcagtttgctcatggaaaacggtgtaacaagggtgaacactatcccatatcaccagctcaccgtctttcattgccatacgaaattccggatgagcattcatcaggcgggcaagaatgtgaataaaggccggataaaacttgtgcttatttttctttacggtctttaaaaaggccgtaatatccagctgaacggtctggttataggtacattgagcaactgactgaaatgcctcaaaatgttctttacgatgccattgggatatatcaacggtggtatatccagtgatttttttctccattttagcttccttagctcctgaaaatctcgataactcaaaaaatacgcccggtagtgatcttatttcattatggtgaaagttggaacctcttacgtgcccgatcaactcgagtgccacctgacgtctaagaaaccattattatcatgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattcgcggccgcttctagagcaatacgcaaaccgcctctccccgcgcgttggccgattcattaatgcagctggcacgacaggtttcccgactggaaagcgggcagtgagcgcaacgcaattaatgtgagttagctcactcattaggcaccccaggctttacactttatgcttccggctcgtatgttgtgtggaattgtgagcggataacaatttcacacatactagagaaagaggagaaatactagatgtccagattagataaaagtaaagtgattaacagcgcattagagctgcttaatgaggtcggaatcgaaggtttaacaacccgtaaactcgcccagaagctaggtgtagagcagcctacattgtattggcatgtaaaaaataagcgggctttgctcgacgccttagccattgagatgttagataggcaccatactcacttttgccctttagaaggggaaagctggcaagattttttacgtaataacgctaaaagttttagatgtgctttactaagtcatcgcgatggagcaaaagtacatttaggtacacggcctacagaaaaacagtatgaaactctcgaaaatcaattagcctttttatgccaacaaggtttttcactagagaatgcattatatgcactcagcgctgtggggcattttactttaggttgcgtattggaagatcaagagcatcaagtcgctaaagaagaaagggaaacacctactactgatagtatgccgccattattacgacaagctatcgaattatttgatcaccaaggtgcagagccagccttcttattcggccttgaattgatcatatgcggattagaaaaacaacttaaatgtgaaagtgggtccgctgcaaacgacgaaaactacgctttagtagcttaataacactgatagtgctagtgtagatcactactagagaaagaggagaaatactagatgcgtaaaggagaagaacttttcactggagttgtcccaattcttgttgaattagatggtgatgttaatgggcacaaattttctgtcagtggagagggtgaaggtgatgcaacatacggaaaacttacccttaaatttatttgcactactggaaaactacctgttccatggccaacacttgtcactactttcggttatggtgttcaatgctttgcgagatacccagatcatatgaaacagcatgactttttcaagagtgccatgcccgaaggttatgtacaggaaagaactatatttttcaaagatgacgggaactacaagacacgtgctgaagtcaagtttgaaggtgatacccttgttaatagaatcgagttaaaaggtattgattttaaagaagatggaaacattcttggacacaaattggaatacaactataactcacacaatgtatacatcatggcagacaaacaaaagaatggaatcaaagttaacttcaaaattagacacaacattgaagatggaagcgttcaactagcagaccattatcaacaaaatactccaattggcgatggccctgtccttttaccagacaaccattacctgtccacacaatctgccctttcgaaagatcccaacgaaaagagagaccacatggtccttcttgagtttgtaacagctgctgggattacacatggcatggatgaactatacaaataataatactagagccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttatatactagagtccctatcagtgatagagattgacatccctatcagtgatagagatactgagcactactagagaaagaggagaaatactagatggtgaatgtgaaaccagtaacgttatacgatgtcgcagagtatgccggtgtctcttatcagaccgtttcccgcgtggtgaaccaggccagccacgtttctgcgaaaacgcgggaaaaagtggaagcggcgatggcggagctgaattacattcccaaccgcgtggcacaacaactggcgggcaaacagtcgttgctgattggcgttgccacctccagtctggccctgcacgcgccgtcgcaaattgtcgcggcgattaaatctcgcgccgatcaactgggtgccagcgtggtggtgtcgatggtagaacgaagcggcgtcgaagcctgtaaagcggcggtgcacaatcttctcgcgcaacgcgtcagtgggctgatcattaactatccgctggatgaccaggatgccattgctgtggaagctgcctgcactaatgttccggcgttatttcttgatgtctctgaccagacacccatcaacagtattattttctcccatgaagacggtacgcgactgggcgtggagcatctggtcgcattgggtcaccagcaaatcgcgctgttagcgggcccattaagttctgtctcggcgcgtctgcgtctggctggctggcataaatatctcactcgcaatcaaattcagccgatagcggaacgggaaggcgactggagtgccatgtccggttttcaacaaaccatgcaaatgctgaatgagggcatcgttcccactgcgatgctggttgccaacgatcagatggcgctgggcgcaatgcgcgccattaccgagtccgggctgcgcgttggtgcggatatctcggtagtgggatacgacgataccgaagacagctcatgttatatcccgccgttaaccaccatcaaacaggattttcgcctgctggggcaaaccagcgtggaccgcttgctgcaactctctcagggccaggcggtgaagggcaatcagctgttgcccgtctcactggtgaaaagaaaaaccaccctggcgcccaatacgcaaaccgcctctccccgcgcgttggccgattcattaatgcagctggcacgacaggtttcccgactggaaagcgggcaggctgcaaacgacgaaaactacgctttagtagcttaataactctgatagtgctagtgtagatctctactagagccaggcatcaaataaaacgaaaggctcagtcgaaagactgggcctttcgttttatctgttgtttgtcggtgaacgctctctactagagtcacactggctcaccttcgggtgggcctttctgcgtttata</sbol:elements>
+    <sbol:encoding rdf:resource="http://www.chem.qmul.ac.uk/iubmb/misc/naseq.html"/>
+  </sbol:Sequence>
+</rdf:RDF>

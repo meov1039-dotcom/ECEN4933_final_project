@@ -41,6 +41,11 @@ SBOL_visual = {
     "terminator": {"SO:0000141": "terminator"}
     }
 
+visBOL_so = ["SO:0000316", "SO:0000297", "SO:0000409", "SO:0000553", "SO:0005850", "SO:0000167",
+             "SO:0000410", "SO:0000139", "SO:0000296", "SO:0000141"]
+
+
+
 ###################
 
 # Initialize SBOL Document:
@@ -60,6 +65,7 @@ def find_features():
     # Iterate through component definitions for sequence annotations:
     annot = []
     ann_name = []
+    so_numbers = []
     for comp_def in doc.componentDefinitions:
         # sort annotations for annotation0, annotation1, etc, since doc does not do this automatically
         sorted_annotations = sorted(comp_def.sequenceAnnotations, key=lambda ann: ann.locations[0].start)
@@ -67,6 +73,9 @@ def find_features():
             loc = ann.locations[0]
             annot.append(ann.displayId)
             ann_name.append(ann.name)
+            so_terms = ann.roles
+            so_n = [uri.split('/')[-1] for uri in so_terms]
+            so_numbers.append(','.join(so_n))
 
     # prints the annotation IDs in order with their corresponding names (e.g. annotation 0 matches BioBrick Suffix)
     print("Annotation DisplayIDs:")
@@ -130,31 +139,34 @@ def find_features():
     print(feat_plasmid)
 
     ###########################
+
+    # find so numbers with a corresponding visbol glyph:
                         
+    
+    part_feat = []
+    parts_so = []
+    parts_i = []
+    vis_parts = []
 
-    # find where all BioBrick parts occur:
+    for i, so in enumerate(so_numbers):
+        if so in visBOL_so:
+            parts_so.append(so)
+            parts_i.append(i)
 
-    # print(feat_name)
-
-    BB_parts = []
-    BB_parts_i = []
 
     for i, name in enumerate(ann_name):
-        if "BBa" in name:
-            BB_parts.append(name)
-            BB_parts_i.append(i)
+        if i in parts_i:
+            vis_parts.append(name)
 
-    # printing BioBrick parts:
-    print(BB_parts)
+    print("Found visual parts:")
+    print(vis_parts) # finds visual parts, all other parts should be features
 
-    # sort out all part features:
+    # note: should the verification reverse primer binding site be a part?
 
-    part_feat = []
-
-    for j, name in enumerate(ann_name):
-        # essentially find everything else in the files
-        if name not in BB_parts and name not in feat_plasmid and name not in plasmids_name:
+    for i, name in enumerate(ann_name):
+        if name not in vis_parts and name not in feat_plasmid and name not in plasmids_name:
             part_feat.append(name)
+
 
     print("Here are the part features:")
     print(part_feat)
@@ -192,6 +204,7 @@ def remove_annotations(names_to_remove):
 def save_file():
     modified = "modified_file.xml"
     doc.write(modified)
+    label3 = Label(root, text="Successfully Saved File").grid(row=4,column=1)
 
 spacer = Label(root, text="                                                       ").grid(row=0,column=0)
 
@@ -202,7 +215,7 @@ label2 = Label(root, text=" ").grid(row=2, column=1)
     
 save_button = Button(root, text="Save file", command=save_file).grid(row=3, column=1)
 
-
+label3 = Label(root, text=" ").grid(row=4,column=1)
 
 
 

@@ -216,15 +216,19 @@ def add_hierarchy():
         if parent_ann is None:
             continue
 
+        idx = int(parent_ann_id.replace("annotation", ""))
+        parent_name = ann_name[idx] if idx < len(ann_name) else parent_ann.displayId
+
         # Promote parent annotation to ComponentDefinition:
         parent_def = sbol2.ComponentDefinition(parent_ann.displayId, sbol2.BIOPAX_DNA)
         parent_def.roles = parent_ann.roles
+        parent_def.name = parent_name 
         doc.addComponentDefinition(parent_def)
 
         # Add parent as subcomponent of plasmid (plasmid is top level):
         parent_sub = plasmid_def.components.create(parent_ann.displayId + "_sub")
         parent_sub.definition = parent_def.identity
-
+        
         # Keep parent visible → add sequence annotation pointing to subcomponent:
         new_ann = plasmid_def.sequenceAnnotations.create(parent_ann.displayId + "_ann")
         new_ann.component = parent_sub.identity

@@ -188,8 +188,10 @@ def find_nested_annotations(annot, positions, so_numbers, ann_names):
     return nested_map, nested_names
 
 def purge_unwanted_annotations(promoted_ids):
-    """Keep only annotations that were not promoted to parent/child."""
     # Build keep list dynamically from plasmid
+    # Only keeps the annotations that are not part of the parent-children map,
+    # Otherwise there would be duplicate instances of parents
+    # Keeps the new children sequence annotations
     plasmid_def = doc.componentDefinitions[0]
     keep_ids = [ann.displayId for ann in plasmid_def.sequenceAnnotations
                 if ann.displayId not in promoted_ids]
@@ -204,7 +206,6 @@ def purge_unwanted_annotations(promoted_ids):
                 print(f"Purged {ann.displayId} from {comp_def.displayId}")
 
 def purge_child_definitions(child_ids):
-    """Remove child ComponentDefinitions entirely from the document."""
     for child_id in child_ids:
         comp_def = doc.componentDefinitions.get(child_id)
         if comp_def:
@@ -237,6 +238,7 @@ def add_hierarchy(parsed_data):
             continue
 
         idx = int(parent_ann_id.replace("annotation", ""))
+        # Attempts to display ann_name, but if not available, will use DisplayID:
         parent_name = ann_name[idx] if idx < len(ann_name) else parent_ann.displayId
 
         # Promote parent annotation to ComponentDefinition:
@@ -293,7 +295,8 @@ def add_hierarchy(parsed_data):
 
             promoted_ids.append(child_ann_id)
             child_ids.append(child_ann_id)  
-        
+
+    # Remove the old sequence annotations:
     for comp_def in doc.componentDefinitions:
         for ann in list(comp_def.sequenceAnnotations):
             if ann.displayId in original_ids:
@@ -305,6 +308,7 @@ def add_hierarchy(parsed_data):
     for ann in plasmid_def.sequenceAnnotations:
         print(f" - {ann.displayId}")
 
+    # Back-up method needed to fully remove the duplicate instances:
     purge_unwanted_annotations(promoted_ids)
 
     purge_child_definitions(child_ids)

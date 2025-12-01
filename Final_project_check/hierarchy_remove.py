@@ -108,8 +108,6 @@ def parse_sbol():
     plasmid_def = doc.componentDefinitions[0]
 
     tree = show_hierarchy_tree(plasmid_def, nested_map, ann_name, original_order)
-    
-    tree.pack(pady=45)
 
     # Activate hierachy button:
     add_hierarchy_button.config(state="normal")
@@ -188,10 +186,8 @@ def find_nested_annotations(annot, positions, so_numbers, ann_names):
     return nested_map, nested_names
 
 def purge_unwanted_annotations(promoted_ids):
+    """Keep only annotations that were not promoted to parent/child."""
     # Build keep list dynamically from plasmid
-    # Only keeps the annotations that are not part of the parent-children map,
-    # Otherwise there would be duplicate instances of parents
-    # Keeps the new children sequence annotations
     plasmid_def = doc.componentDefinitions[0]
     keep_ids = [ann.displayId for ann in plasmid_def.sequenceAnnotations
                 if ann.displayId not in promoted_ids]
@@ -206,6 +202,7 @@ def purge_unwanted_annotations(promoted_ids):
                 print(f"Purged {ann.displayId} from {comp_def.displayId}")
 
 def purge_child_definitions(child_ids):
+    """Remove child ComponentDefinitions entirely from the document."""
     for child_id in child_ids:
         comp_def = doc.componentDefinitions.get(child_id)
         if comp_def:
@@ -238,7 +235,6 @@ def add_hierarchy(parsed_data):
             continue
 
         idx = int(parent_ann_id.replace("annotation", ""))
-        # Attempts to display ann_name, but if not available, will use DisplayID:
         parent_name = ann_name[idx] if idx < len(ann_name) else parent_ann.displayId
 
         # Promote parent annotation to ComponentDefinition:
@@ -295,8 +291,7 @@ def add_hierarchy(parsed_data):
 
             promoted_ids.append(child_ann_id)
             child_ids.append(child_ann_id)  
-
-    # Remove the old sequence annotations:
+        
     for comp_def in doc.componentDefinitions:
         for ann in list(comp_def.sequenceAnnotations):
             if ann.displayId in original_ids:
@@ -308,7 +303,6 @@ def add_hierarchy(parsed_data):
     for ann in plasmid_def.sequenceAnnotations:
         print(f" - {ann.displayId}")
 
-    # Back-up method needed to fully remove the duplicate instances:
     purge_unwanted_annotations(promoted_ids)
 
     purge_child_definitions(child_ids)
@@ -319,7 +313,12 @@ def add_hierarchy(parsed_data):
 
 def show_hierarchy_tree(plasmid_def, nested_map, ann_name, original_order):
 
-    tree = ttk.Treeview(root)
+
+    # Create frame for Treeview:
+    frame = Frame(root)
+    frame.pack(fill=BOTH, expand=True)
+
+    tree = ttk.Treeview(frame)
 
     tree.heading("#0", text="Annotation Name", anchor="w")
 
@@ -361,11 +360,16 @@ def show_hierarchy_tree(plasmid_def, nested_map, ann_name, original_order):
             tree.insert("", "end", iid=ann_id, text=ann_display_name)
             inserted.add(ann_id)
             
-    # Scrollbar:
-    scrollbar = ttk.Scrollbar(root, orient="vertical", command=tree.yview)
-    tree.configure(yscroll=scrollbar.set)
-    scrollbar.pack(side="right", fill="y")
+   # Create vertical scrollbar:
+    vsb = ttk.Scrollbar(frame, orient="vertical", command=tree.yview)
+    vsb.pack(side=RIGHT, fill=Y)
+    tree.configure(yscrollcommand=vsb.set)
 
+    # Create horizontal scrollbar:
+    hsb = ttk.Scrollbar(frame, orient="horizontal", command=tree.xview)
+    hsb.pack(side=BOTTOM, fill=X)
+    tree.configure(xscrollcommand=hsb.set)
+    
     # Context menu:
     menu = Menu(root, tearoff=0)
     menu.add_command(label="Remove Relationship", command=lambda: remove_relationship(tree, nested_map, ann_name, original_order, plasmid_def))
@@ -379,6 +383,8 @@ def show_hierarchy_tree(plasmid_def, nested_map, ann_name, original_order):
 
     tree.bind("<Button-3>", on_right_click)  # Windows/Linux
     tree.bind("<Button-2>", on_right_click)  # macOS
+
+    tree.pack(pady=45)
     
     return tree
 
@@ -409,19 +415,14 @@ def remove_relationship(tree, nested_map, ann_names, original_order, plasmid_def
 
     # Move the node visually to root
     tree.move(child_id, "", "end")
-    # Refresh the whole tree so it reflects the new nested_map
-    #for item in tree.get_children():
-       # tree.delete(item)
-    #refresh_tree(tree, plasmid_def, nested_map, ann_names, original_order)
-
 # Create seperate function to refresh tree based on what is removed:
 
 def refresh_tree(tree, plasmid_def, nested_map, ann_names, original_order):
-    # Clear existing items
+    # Clear existing items:
     for item in tree.get_children():
         tree.delete(item)
 
-    # Re‑insert items based on updated nested_map
+    # Re‑insert items based on updated nested_map:
     for ann_id in original_order:
         if ann_id in nested_map:
             parent_node = tree.insert("", "end", iid=ann_id, text=ann_names[original_order.index(ann_id)])

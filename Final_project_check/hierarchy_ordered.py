@@ -3,6 +3,9 @@ from tkinter import *
 from tkinter import filedialog
 from tkinter import ttk
 from tkinter import messagebox
+import re
+
+nested_map = {}
 
 SBOL_visual = {
     "CDS": {"SO:0000316": "cds"},
@@ -98,7 +101,23 @@ def parse_sbol():
     original_order = [ann.displayId for ann in plasmid_def.sequenceAnnotations]
 
 
-    parsed_data = (annot, ann_name, positions, subsequences, nested_map, nested_names, original_order)
+    parsed_data = (annot, ann_name, positions, subsequences, nested_map, nested_names, original_order)    
+
+    # Create TreeView:
+
+    plasmid_def = doc.componentDefinitions[0]
+
+    tree = show_hierarchy_tree(plasmid_def,
+                           parsed_data[4],  # nested_map
+                           parsed_data[1],  # ann_names
+                           parsed_data[6])  # original_order
+    tree.pack(pady=45)
+
+    # Insert treeView of hierarchy:
+    show_hierarchy_tree(plasmid_def, nested_map, ann_name, original_order)
+
+    # Activate hierachy button:
+    add_hierarchy_button.config(state="normal")
 
     return parsed_data
 
@@ -169,6 +188,7 @@ def find_nested_annotations(annot, positions, so_numbers, ann_names):
                         nested_names.setdefault(ann_names[i], []).append(ann_names[j])
                         assigned_children.add(annot[j])
     print(positions)
+    
 
     return nested_map, nested_names
 
@@ -196,12 +216,12 @@ def purge_child_definitions(child_ids):
             doc.componentDefinitions.remove(comp_def.identity)
             print(f"Removed child definition {child_id} from document")
 
-def add_hierarchy():
-    global parsed_data
+def add_hierarchy(parsed_data, tree):
+
     if parsed_data is None:
         messagebox.showerror("ERROR", "Must Parse SBOL File First")
         return
-
+    
     annot, ann_name, positions, subsequences, nested_map, nested_names, original_order = parsed_data
 
     # Assume the first ComponentDefinition is the plasmid
@@ -295,7 +315,106 @@ def add_hierarchy():
     purge_child_definitions(child_ids)
     
     print("Annotations reordered by start position.")
+
+    # After buttton pressed, refresh TreeView:
+    for item in tree.get_children():
+        tree.delete(item)
+    show_hierarchy_tree(plasmid_def, nested_map, ann_names, original_order)
+
+   
 ###################
+
+def show_hierarchy_tree(plasmid_def, nested_map, ann_name, original_order):
+
+    tree = ttk.Treeview(root)
+
+    tree.heading("#0", text="Annotation Name", anchor="w")
+
+    all_children = {c for kids in nested_map.values() for c in kids}
+    inserted = set()
+
+    for ann_id in original_order:
+        if ann_id in inserted:
+            continue
+
+        idx = None
+        if ann_id.startswith("annotation"):
+            try:
+                idx = int(re.search(r'annotation(\d+)', ann_id).group(1))
+            except Exception:
+                idx = None
+        ann_display_name = ann_name[idx] if idx is not None and idx < len(ann_name) else ann_id
+
+        if ann_id in nested_map:
+            parent_node = tree.insert("", "end", iid=ann_id, text=ann_display_name)
+            inserted.add(ann_id)
+
+            for child_id in nested_map[ann_id]:
+                if child_id not in inserted:
+                    c_idx = None
+                    if child_id.startswith("annotation"):
+                        try:
+                            c_idx = int(re.search(r'annotation(\d+)', child_id).group(1))
+                        except Exception:
+                            c_idx = None
+                    child_name = ann_name[c_idx] if c_idx is not None and c_idx < len(ann_name) else child_id
+                    tree.insert(parent_node, "end", iid=child_id, text=child_name)
+                    inserted.add(child_id)
+        elif ann_id in all_children:
+            continue
+        else:
+            tree.insert("", "end", iid=ann_id, text=ann_display_name)
+            inserted.add(ann_id)
+    # Scrollbar:
+    scrollbar = ttk.Scrollbar(root, orient="vertical", command=tree.yview)
+    tree.configure(yscroll=scrollbar.set)
+    scrollbar.pack(side="right", fill="y")
+
+    # Context menu:
+    menu = Menu(root, tearoff=0)
+    menu.add_command(label="Remove Relationship", command=lambda: remove_relationship(tree))
+       
+    def on_right_click(event):
+        # Select the item under cursor
+        iid = tree.identify_row(event.y)
+        if iid:
+            tree.selection_set(iid)
+            menu.post(event.x_root, event.y_root)
+
+    tree.bind("<Button-3>", on_right_click)  # Windows/Linux
+    tree.bind("<Button-2>", on_right_click)  # macOS
+    
+    return tree
+
+# Add a command so that user can delete parent-child relationship:
+
+def remove_relationship(tree):
+   
+    sel = tree.selection()
+    if not sel:
+        return
+    node = sel[0]
+    child_id = node  # iid is the SBOL ID
+    parent_id = None
+
+    # Find parent in nested_map
+    for p, kids in nested_map.items():
+        if child_id in kids:
+            parent_id = p
+            break
+
+    if not parent_id:
+        return
+
+    # Update UI
+    tree.set(node, "Parent", "")  # if you kept a Parent column
+    # Or just move the node to root if you’re nesting:
+    tree.move(node, "", "end")
+
+    # Update data
+    nested_map[parent_id] = [c for c in nested_map[parent_id] if c != child_id] 
+
+##################
 
 def save_file():
     modified_name = "modified_file.xml"
@@ -304,10 +423,13 @@ def save_file():
     print(doc)
 
 
-load_button = Button(root, text="Load Plasmid Assembly File", command=open_file).pack(pady=20)
-parse_button = Button(root, text="Parse Plasmid", command=parse_sbol).pack(pady=30)
-add_hierarchy_button = Button(root, text="Add Nested Hierarchy", command=add_hierarchy).pack(pady=40)
-save_button = Button(root, text="Save New File", command=save_file).pack(pady=50)
+load_button = Button(root, text="Load Plasmid Assembly File", command=open_file).pack(pady=10)
+parse_button = Button(root, text="Parse Plasmid", command=parse_sbol).pack(pady=20)
+# Call hierarchy only when pressed
+add_hierarchy_button = Button(root, text="Add Nested Hierarchy", state="disabled",command= lambda: add_hierarchy(parsed_data, tree))
+add_hierarchy_button.pack(pady=30)
+save_button = Button(root, text="Save New File", command=save_file).pack(pady=40)
+label1 = Label(root, text="Right-Click Children Nested Under Parents to Remove the Relationship").pack(pady=50)
 
 root.mainloop()
 

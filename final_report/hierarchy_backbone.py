@@ -158,7 +158,6 @@ def find_nested_annotations(annot, positions, so_numbers, ann_names):
     return nested_map, nested_names
 
 def purge_unwanted_annotations(promoted_ids):
-    """Keep only backbone + promoted parent annotations; remove old annotations everywhere."""
     plasmid_def = doc.componentDefinitions[0]
 
     keep_identities = set()
@@ -175,11 +174,11 @@ def purge_unwanted_annotations(promoted_ids):
             did = getattr(ann, "displayId", None)
             aid = ann.identity
 
-            # Keep promoted visible parents
+            # Keep promoted visible parents:
             if did in keep_display_ids:
                 continue
 
-            # Everything else is unwanted
+            # Everything else is unwanted:
             comp_def.sequenceAnnotations.remove(aid)
             print(f"Purged annotation {did or aid} from {comp_def.displayId}")
 
